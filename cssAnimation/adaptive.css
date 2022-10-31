@@ -318,7 +318,7 @@
         line-height: 16px;
     }
 }
-@media(max-width:940px){
+@media(max-width:991px){
     .header nav ul>li:not(:last-child){
         margin-right: 30px;
     }
