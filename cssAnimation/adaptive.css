@@ -1,0 +1,476 @@
+@media (max-width:1440px){
+    .block-title .title{
+        font-size: 54px;
+    }
+    .block-title .container{
+        padding-top: 250px;
+        padding-bottom: 200px;
+    }
+        
+    .cponsorLogo {
+        flex-wrap:wrap
+    }
+    .cponsorLogo img{
+        height: 90px;
+        width: 33%;
+        margin: auto;
+        object-fit: contain;
+    }
+    .cponsorLogo img:nth-child(4),
+    .cponsorLogo img:nth-child(5),
+    .cponsorLogo img:last-child{
+        margin-top:20px
+    }
+    .fortnite-wrap__block>div{
+        max-width: 44%;
+        flex: 0 0 44%;
+    }
+    .new-era__content {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .new-era .title {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .new-era .subtitle {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .fire-block {
+    }
+    .new-era .container {
+        justify-content: space-between;
+    }
+    .new-era__img {
+        max-width: 40%;
+        flex: 0 0 40%;
+    }
+    .new-era__img img {
+        width: -webkit-fill-available;
+    }
+    .slider__img {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .slider__img img {
+        width: -webkit-fill-available;
+    }
+    .slider__content {
+        max-width: 42%;
+        margin-left: 8%;
+    }
+    .slider .title {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .slider .subtitle {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .slider-carusel img {
+        max-width: 33%;
+        flex: 0 0 33%;
+    }
+        .news .title {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .news-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .news-text.big {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .news-date {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .news-date.big {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .form .title {
+        font-size: 64px;
+        line-height: 74px;
+        margin-bottom: 30px;
+    }
+    .form .subtitle {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+@media (max-width: 1140px){
+    .block-title .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+    .block-title .title {
+        font-size: 34px;
+        line-height: 44px;
+        margin-bottom: 30px;
+    }
+    .block-title__img>img {
+        width: -webkit-fill-available;
+    }
+    .btnWeb img {
+        max-width: 100px;
+    }
+    .block-title .subtitle {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 45px;
+    }
+    .fire-text {
+        font-size: 12px;
+    }
+    .fire-block img {
+        width: 20px;
+        height: 20px;
+    }
+    .fire-block {
+        margin-bottom: 10px;
+    }
+    .btn {
+        padding: 11px 16px;
+        font-size: 12px;
+    }
+    .nav a {
+        font-size: 12px;
+    }
+    .header .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .basket img {
+        width: 24px;
+    }
+    .header {
+        top: -88px;
+        height: 88px;
+    }
+    .sponsor .title {
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+    .sponsor .subtitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .cponsorLogo img {
+        height: 65px;
+    }
+    .padding1-t-b {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .fortnite .title {
+        font-size: 40px;
+        max-width: 600px;
+        line-height: 54px;
+        margin-bottom: 30px;
+    }
+    .fortnite .subtitle {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 40px;
+    }
+    p.fortnite-wrap__text {
+        font-size: 10px;
+    }
+    .fortnite-wrap__block>div:last-child,.fortnite-wrap__block>div:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .fortnite .padding1-t-b {
+        padding-top: 80px;
+    }
+    .new-era .title {
+        font-size: 34px;
+        line-height: 44px;
+        margin-bottom: 25px;
+    }
+    .new-era .subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .slider .title {
+        font-size: 34px;
+        line-height: 44px;
+        margin-bottom: 25px;
+    }
+    .slider .subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .slider-carusel img {
+        max-width: 32%;
+        flex: 0 0 32%;
+        padding: 7px;
+    }
+    .news .title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .news_subtext {
+        margin-bottom: 40px;
+    }
+    .news-block img {
+        margin-bottom: 15px;
+    }
+    .news-date {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .news-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .news-block__small>div:first-child, .news-block__small>div:nth-child(2) {
+        margin-bottom: 0px;
+    }
+    .news-text.big {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .news-date.big {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .form .title {
+        font-size: 44px;
+        max-width: 600px;
+        line-height: 54px;
+    }
+    .form .subtitle {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 650px;
+    }
+    .form form input {
+        height: 50px;
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 350px;
+    }
+    .footer-top>.container>.footer-logo {
+        order: 3;
+        max-width: 48%;
+        flex: 0 0 48%;
+        margin-top: 30px;
+        text-align: left;
+        border-top: 1px solid #fff;
+        padding-top: 15px !important;
+    }
+    .footer-top>.container>.footer-social {
+        order: 4;
+        margin-top: 30px;
+        border-top: 1px solid #fff;
+        padding-top: 15px !important;
+    }
+    .footer-top>.container>div {
+        max-width: 48%;
+        flex: 0 0 48%;
+        text-align: center;
+    }
+    .footer-container {
+        flex-wrap: wrap;
+        padding-bottom: 25px;
+    }
+    .footer-top {
+        padding-top: 80px;
+    }
+    footer .title {
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+    footer .text {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .footer-logo img {
+        margin-bottom: 15px;
+    }
+    .footer-logo .text {
+        font-size: 12px;
+    }
+    .copyright {
+        padding: 25px 0;
+        font-size: 10px;
+    }
+    .counter.position-absolute {
+        font-size: 8px;
+        width: 19px;
+        height: 15px;
+        line-height: 16px;
+        top: -9px;
+        right: -18px;
+    }
+    .side-panel a {
+        margin-right: 30px;
+        font-size: 8px;
+        line-height: 16px;
+    }
+}
+@media(max-width:940px){
+    .header nav ul>li:not(:last-child){
+        margin-right: 30px;
+    }
+    .header .container>a {
+        max-width: 120px;
+        width: 100%;
+    }
+    .header .container>a img {
+        width: -webkit-fill-available;
+    }
+    .header .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .padding-l-r {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .block-title .container {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .block-title .title {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    .fire-text {
+        font-size: 10px;
+    }
+    .fire-block img {
+        width: 15px;
+        height: 15px;
+    }
+    .block-title .subtitle {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .padding1-t-b {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .sponsor .title {
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+    .sponsor .subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .cponsorLogo img {
+        height: 55px;
+    }
+    .fortnite .padding1-t-b {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .fortnite .title {
+        font-size: 30px;
+        max-width: 350px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+    .fortnite .subtitle {
+        font-size: 12px;
+        max-width: 450px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+    .fortnite-wrap__block>div {
+        padding: 20px 20px 20px 60px;
+    }
+    .fortnite-wrap__text {
+        font-size: 9px;
+    }
+    .header {
+        top: -82px;
+        height: 82px;
+    }
+    .new-era .title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .new-era .subtitle {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .sircle-big {
+        width: 80px;
+        height: 80px;
+    }
+    .sircle-small {
+        width: 60px;
+        height: 60px;
+    }
+    .new-era__img .sircle-small img {
+        width: 25px;
+        height: 25px;
+    }
+    .slider__content {
+        padding-top: 50px;
+    }
+    .slider .title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+    .slider .subtitle {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    .choice>.container>div {
+        min-height: 450px;
+        background-size: cover;
+    }
+    .news .title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .news-text {
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .news-date {
+        font-size: 8px;
+        line-height: 16px;
+        margin-bottom: 0;
+    }
+    .news-text.big {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .news-date.big {
+        font-size: 10px;
+        line-height: 16px;
+        margin-bottom: 4px;
+    }
+    .news-block__small>div:first-child, .news-block__small>div:nth-child(2) {
+        margin-bottom: 20px;
+    }
+    .news-block img {
+        margin-bottom: 10px;
+    }
+    .form .title {
+        font-size: 34px;
+        line-height: 40px;
+        max-width: 400px;
+    }
+    .form .subtitle {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

@@ -12,6 +12,15 @@
     top: -32%;
     transform: rotate(-180deg);
 }
+@media (min-width: 2000px){
+    .line3{display:none}
+}
+@media (min-width: 4000px){
+    .line2{display:none}
+}
+@media (min-width:5000px){
+    .line1{display:none}
+}
 /*hamburger*/
 .animated-icon1, .animated-icon2, .animated-icon3 {
     width: 30px;
