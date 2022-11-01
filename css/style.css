@@ -78,7 +78,6 @@ z-index: 10;
     z-index: 99;
     width: 60px;
     height: 60px;
-    background: #a9a9a9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,10 +86,15 @@ z-index: 10;
     opacity: 0;
     right: -10%;
     transition: all 0.4s;
+
+}
+.scroll-top.scroll:hover{
+    opacity: 1;
 }
 .scroll-top.scroll {
-    opacity: 1;
+    opacity: 0.5;
     right: 5%;
+
 }
 /*header*/
 .header {
@@ -320,20 +324,36 @@ z-index: 10;
 .slider .subtitle{
     margin-bottom: 54px;
 }
-.slider-carusel>img {
-    cursor: pointer;
-    padding: 10px;
+.logos .slick-arrow {
+    width: 15px;
+    height: 40px;
+    background-color: transparent!important;
+    border: none!important;
+    position: absolute;
+    top: calc(50% - 25px);
+    z-index: 99;
+}
+.slick-prev, .slick-prev:hover {
+    left: 0;
+}
+.slick-next, .slick-next:hover {
+    right: 0;
+}
+.slick-current.slick-active {
+    background:#3B3D46;
     border-radius: 20px;
 }
-
-.slider-carusel .active {
-    background: #3B3D46;
+.slick-slide{
+    padding:10px
 }
-
-.slider-carusel img:hover {
-    background: #3B3D46;
+.slick-slide img{
+    cursor: pointer;
+    width: -webkit-fill-available;
 }
-
+.logos {
+    position: relative;
+    padding: 0 20px;
+}
 /*choice*/
 .choice{
     background-image: linear-gradient(
