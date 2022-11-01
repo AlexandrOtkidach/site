@@ -1,12 +1,15 @@
 var header = $(".header");
+let scrollTop = $('.scroll-top');
 var scrollChange = 1;
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= scrollChange) {
         header.addClass('scroll');
+        scrollTop.addClass('scroll');
     } else {
         header.removeClass("scroll");
+        scrollTop.removeClass('scroll');
     }
 });
 
@@ -31,7 +34,12 @@ function myAnimate (el, animation){
 myAnimate('.footer-logo','animated shake infinite slow');
 myAnimate('.contact-us,.basket','animated pulse infinite');
 
+document.querySelector('.scroll-top').onclick = () => {
+    window.scrollTo(pageYOffset, 0);
+}
 
 $(document).ready(function() {
     new WOW().init();
 });
+
+$('.scroll-top').click()
