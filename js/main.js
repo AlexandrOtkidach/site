@@ -31,7 +31,7 @@ function myAnimate (el, animation){
 
 }
 // animate('.btn','animated heartBeat infinite');
-myAnimate('.footer-logo','animated shake infinite slow');
+myAnimate('.header-logo','animated shake infinite slow');
 myAnimate('.contact-us,.basket','animated pulse infinite');
 
 document.querySelector('.scroll-top').onclick = () => {

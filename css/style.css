@@ -339,11 +339,11 @@ z-index: 10;
 .slick-next, .slick-next:hover {
     right: 0;
 }
-.slick-current.slick-active {
+.slick-current.slick-active img{
     background:#3B3D46;
     border-radius: 20px;
 }
-.slick-slide{
+.slick-slide img{
     padding:10px
 }
 .slick-slide img{

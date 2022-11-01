@@ -773,6 +773,13 @@
         font-size: 16px;
         line-height: 32px;
     }
+    .slick-slide img {
+        max-width: 200px;
+        margin: auto;
+    }
+    .slider__img{
+        display:none;
+    }
 }
 @media(max-width:540px){
     .block-title {
@@ -908,5 +915,10 @@
         max-width: 100%;
         margin-top: 25px;
         font-size: 13px;
+    }
+}
+@media (max-width: 400px){
+    .btn-block{
+        flex-direction: column;
     }
 }

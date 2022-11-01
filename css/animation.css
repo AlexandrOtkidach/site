@@ -26,6 +26,7 @@
 .side-panel a:hover{color: #fff;text-decoration:none}
 .amber.lighten-4 {
     background: transparent !important;
+    box-shadow: none !important;
 }
 /* .wow {
     visibility: hidden;
